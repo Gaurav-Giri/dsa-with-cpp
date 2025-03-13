@@ -1,0 +1,101 @@
+is number odd or __even
+        1           2
+        3           4
+        5           6
+        7           8
+        9           10
+        11          12
+n -> even
+start 
+input n
+n%2 == 0 -> even or odd
+print even or print odd
+exit
+
+
+
+pseudo code 
+1. input n 
+2. if n%2 == 0
+        print a
+    else 
+        print odd
+3. exit
+
+
+ 
+sum of number from 1 to N
+1 to n = 5
+sum  = 1+2+3+4+5 = 15
+
+start
+input N
+count  =1, sum = 0 <-----------------
+count <=n                           :
+if yes                              :
+    sum = sum + count       count  = count + 1
+if no 
+    print sum 
+
+end
+
+
+pseudo code 
+1.input  N
+2. count  =  1, sum  = 0
+3. while count <= N
+        sum = sum + count
+        count  = count+ 1
+4. print sum
+5. end
+
+
+
+is prime or not  
+
+prime no. ---> 2,3,5,7,13,
+n = 7
+7 not comes on the table below 7
+start
+input N
+t = 2
+diamond(i<=(N-1))
+if yes
+n% i ==0
+if no 
+i+= 1
+goto before diamond box
+else if yes 
+print non prime
+
+if no
+print prime
+exit
+
+
+
+home work problem 
+n = 8
+
+i = 2 to 7
+
+
+pseudo code
+1. input n 
+2. i =2
+3. while i<= (n-1)
+        if n% 1 ==0
+            print non-prime
+            exit
+        else
+            i+=1
+4. print prime 
+5. exit
+
+
+homework problems
+a. calculate "simple intrest " from principal(p), rate(r), & time (t)
+b. calculate max of of 2 numbers 
+c. calculate factorial of a number N
+d. given a person's age , find if they should get a driving liscence or not 
+
